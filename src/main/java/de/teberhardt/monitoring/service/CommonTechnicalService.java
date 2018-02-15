@@ -16,13 +16,13 @@ public class CommonTechnicalService {
         Random r = new Random();
 
         switch (r.nextInt(3)) {
-            case 1:
+            case 0:
                 return true;
 
-            case 2:
+            case 1:
                 return false;
 
-            case 3:
+            case 2:
                 throw new Exception();
         }
         return false;
